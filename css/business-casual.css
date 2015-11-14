@@ -190,3 +190,18 @@ footer p {
         clear: both;
     }
 }
+
+@media screen and (min-width: 700px) {
+
+.map  {
+    width: 640px;
+    height: 400px;
+}
+}
+
+@media screen and (max-width:340px) {
+    .map {
+        width: 170px;
+        height: 240px;
+    }
+}
